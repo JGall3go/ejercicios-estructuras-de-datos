@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.contenedor {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.barra {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.barra input {
+  flex: 1;
+  padding: 8px;
+}
+
+.barra .numero {
+  width: 50px;
+  flex: none;
+}
+
+li {
+  padding: 6px 0;
+}
+
+.popularidad {
+  color: gray;
+}
